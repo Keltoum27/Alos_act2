@@ -1,9 +1,21 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "etudiants": [
+    { "id": 1, "nom": "ahmed", "prenom": "ahmed", "date_naissance": "01-02-1996", "lieu_naissance": "mosta", "speciality": 1 }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "specialities": [
+    { "id": 1, "nom": "Math et informatique" },
+    { "id": 2, "nom": "Science et technologie" },
+    { "id": 3, "nom": "Science matiere" }
   ],
-  "profile": { "name": "typicode" }
+  "bourses": [
+    { "id": 1, "nom": "bourse B1", "duree": "6", "speciality": 1 },
+    { "id": 2, "nom": "bourse B2", "duree": "3", "speciality": 1 },
+    { "id": 3, "nom": "bourse B3", "duree": "12", "speciality": 2 },
+    { "id": 4, "nom": "bourse B4", "duree": "12", "speciality": 2 },
+    { "id": 5, "nom": "bourse B5", "duree": "6", "speciality": 3 },
+    { "id": 6, "nom": "bourse B6", "duree": "5", "speciality": 3 }
+  ],
+  "liste_des_inscri": [
+    { "id": 1, "etudiant_id": 1, "bourse_id": 1, "date": "27-03-2022" }
+  ]
 }

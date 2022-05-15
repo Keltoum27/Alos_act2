@@ -1,3 +1,3 @@
-cd C:\xampp\htdocs\projects\nodejs\
+cd /d %~dp0
 npm install -g json-server
 pause
